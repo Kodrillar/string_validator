@@ -26,7 +26,7 @@ class UpperCaseValidator implements RegExValidation {
        * 
        *  If the position at which a string stopped matching is the same as the length of the string,
        *  then the matching reached the end of the string.
-       *  Assume: var string sex = 'male'; stopped matching at 'e' 
+       *  Assume: var sex = 'male'; stopped matching at 'e' 
        *                           1234
        *  Position 'e' is 4;
        *  lenght of string(sex) is 4
