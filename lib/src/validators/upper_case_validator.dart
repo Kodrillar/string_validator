@@ -21,13 +21,13 @@ class UpperCaseValidator implements RegExValidation {
 
     for (var matchedString in matchedStrings) {
       /**
-       *  For a matchedString to start at index 0 means, the string 
+       *  For a matchedString to start at index 0, means the string 
        *  matches the Regular expresion pattern starting from the first character.
        * 
        *  If the position at which a string stopped matching is the same as the length of the string,
        *  then the matching reached the end of the string.
        *  Assume: var sex = 'male'; stopped matching at 'e' 
-       *                           1234
+       *                     1234
        *  Position 'e' is 4;
        *  lenght of string(sex) is 4
        * 
